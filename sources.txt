@@ -1,0 +1,1 @@
+Custom web components - https://medium.com/@ignatovich.dm/web-components-a-dive-into-modern-component-architecture-529b8e983671
