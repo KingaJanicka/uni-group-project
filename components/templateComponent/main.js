@@ -1,12 +1,12 @@
-class AdvancedTooltip extends HTMLElement {
-    constructor() {
-        super();
-        this.attachShadow({ mode: 'open' }); // Enables Shadow DOM for encapsulation
-    }
+class Template extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' }); // Enables Shadow DOM for encapsulation
+  }
 
-    connectedCallback() {
-        const text = this.getAttribute('text');
-        this.shadowRoot.innerHTML = `
+  connectedCallback() {
+    const text = this.getAttribute('text');
+    this.shadowRoot.innerHTML = `
       <style>
         .tooltip {
             background-color:blue;
@@ -24,7 +24,7 @@ class AdvancedTooltip extends HTMLElement {
         <span class="tooltip-text">${text}</span>
       </div>
     `;
-    }
+  }
 }
 
-customElements.define('advanced-tooltip', AdvancedTooltip);
+customElements.define('template', Template);
