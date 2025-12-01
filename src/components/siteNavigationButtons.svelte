@@ -4,10 +4,10 @@
 
 <main>
     <div class="buttonsContainer">
-        <Button border={false}>Home</Button><Button border={false}>Menu</Button
-        ><Button border={false}>Contact</Button><Button border={false}
-            >Our Story</Button
-        >
+        <Button border={false} link="">Home</Button>
+        <Button border={false} link="bla">Menu</Button>
+        <Button border={false} link="bla">Contact</Button>
+        <Button border={false} link="bla">Our Story</Button>
     </div>
 </main>
 

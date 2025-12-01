@@ -9,7 +9,7 @@
         <div class="logoContainer">Logotype</div>
         <div class="linkContainer"><SiteNavigationButtons /></div>
         <div class="buttonContainer">
-            <Button border={true}>Reservations</Button>
+            <Button border={true} link="bla">Reservations</Button>
         </div>
     </div>
 </main>

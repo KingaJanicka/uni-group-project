@@ -3,8 +3,9 @@
     interface Props {
         children: Snippet;
         border: boolean;
+        link: string;
     }
-    const { children, border }: Props = $props();
+    const { children, border, link }: Props = $props();
 </script>
 
 <main>
@@ -12,7 +13,7 @@
         class="buttonContainer"
         style={border ? "border: 2px black solid" : "border: none"}
     >
-        <div>{@render children?.()}</div>
+        <div><a href={link}>{@render children?.()}</a></div>
     </div>
 </main>
 
@@ -25,5 +26,8 @@
     .buttonContainer:hover {
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0.075);
+    }
+    a {
+        color: black;
     }
 </style>
