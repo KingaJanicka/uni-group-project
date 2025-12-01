@@ -39,12 +39,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         width: 100vw;
         background: #ffffff;
-        /* background: linear-gradient(
-            180deg,
-            rgba(255, 255, 255, 0.75) 0%,
-            rgba(255, 255, 255, 0.44) 50%,
-            rgba(10, 0, 0, 0) 100%
-        ); */
         padding: 1em 0em;
         margin: 0em;
     }

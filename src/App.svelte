@@ -2,6 +2,7 @@
   import Navbar from "./components/navbar.svelte";
   import hero from "./assets/hero.jpg";
   import Hero from "./components/hero.svelte";
+  import Footer from "./components/footer.svelte";
 </script>
 
 <main>
@@ -9,7 +10,7 @@
   <div class="scrollContainerHero"><Hero /></div>
   <div class="scrollContainerWelcome"></div>
   <div class="scrollContainerOpinions"></div>
-  <div class="scrollContainerFooter"></div>
+  <div class="scrollContainerFooter"><Footer /></div>
 </main>
 
 <style>
