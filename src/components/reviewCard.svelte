@@ -17,6 +17,7 @@
 <style>
     .reviewCardContainer {
         border: 2px lightgray solid;
+        background-color: #fdfdfd;
         border-radius: 2em;
         padding: 0.5em 2em;
         width: fit-content;

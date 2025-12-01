@@ -8,14 +8,23 @@
 </script>
 
 <main>
-  <Navbar />
-  <div class="scrollContainerHero"><Hero /></div>
-  <div class="scrollContainerWelcome"><Welcome /></div>
-  <div class="scrollContainerReviews"><Reviews /></div>
-  <div class="scrollContainerFooter"><Footer /></div>
+  <div class="overflowContainer">
+    <Navbar />
+    <div class="scrollContainer"><Hero /></div>
+    <div class="scrollContainer"><Welcome /></div>
+    <div class="scrollContainer"><Reviews /></div>
+    <div class="scrollContainer"><Footer /></div>
+  </div>
 </main>
 
 <style>
-  .scrollContainerHero {
+  .scrollContainer {
+    scroll-snap-align: start;
+    padding-top: 3em;
+  }
+  .overflowContainer {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
   }
 </style>

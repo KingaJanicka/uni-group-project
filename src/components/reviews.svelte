@@ -17,8 +17,7 @@
                         Pellentesque tempus tempor enim, ac finibus nulla cursus
                         non. Vestibulum facilisis at enim in feugiat. Orci
                         varius natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Nunc commodo fermentum
-                        ante quis.
+                        montes, nascetur ridiculus mus.
                     </ReviewCard>
                     <ReviewCard>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -26,8 +25,7 @@
                         Pellentesque tempus tempor enim, ac finibus nulla cursus
                         non. Vestibulum facilisis at enim in feugiat. Orci
                         varius natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Nunc commodo fermentum
-                        ante quis.
+                        montes, nascetur ridiculus mus.
                     </ReviewCard>
                 </div>
                 <div class="reviewColumn2">
@@ -37,8 +35,7 @@
                         Pellentesque tempus tempor enim, ac finibus nulla cursus
                         non. Vestibulum facilisis at enim in feugiat. Orci
                         varius natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Nunc commodo fermentum
-                        ante quis.
+                        montes, nascetur ridiculus mus.
                     </ReviewCard>
                     <ReviewCard>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -46,8 +43,7 @@
                         Pellentesque tempus tempor enim, ac finibus nulla cursus
                         non. Vestibulum facilisis at enim in feugiat. Orci
                         varius natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Nunc commodo fermentum
-                        ante quis.
+                        montes, nascetur ridiculus mus.
                     </ReviewCard>
                 </div>
             </div>
