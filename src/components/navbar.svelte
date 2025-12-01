@@ -32,7 +32,7 @@
         padding: 0em 1.5em;
     }
     .mainContainer {
-        position: absolute;
+        position: fixed;
         top: 0px;
         left: 0px;
         display: grid;
