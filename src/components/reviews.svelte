@@ -68,7 +68,8 @@
     }
     .reviewsContainer {
         display: flex;
-        align-items: flex-start;
+        align-items: stretch;
         justify-content: flex-start;
+        padding-left: 2em;
     }
 </style>

@@ -1,13 +1,16 @@
 <script lang="ts">
     import type { Snippet } from "svelte";
     import Button from "./button.svelte";
+    import SiteNavigationButtons from "./siteNavigationButtons.svelte";
 </script>
 
 <main>
     <div class="mainContainer">
         <div class="logoContainer">Logotype</div>
-        <div class="linkContainer">Linky links</div>
-        <div class="buttonContainer"><Button>Reservations</Button></div>
+        <div class="linkContainer"><SiteNavigationButtons /></div>
+        <div class="buttonContainer">
+            <Button border={true}>Reservations</Button>
+        </div>
     </div>
 </main>
 
@@ -37,7 +40,7 @@
         top: 0px;
         left: 0px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
         width: 100vw;
         background: #ffffff;
         padding: 1em 0em;
