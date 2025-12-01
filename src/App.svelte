@@ -4,13 +4,14 @@
   import Hero from "./components/hero.svelte";
   import Footer from "./components/footer.svelte";
   import Welcome from "./components/welcome.svelte";
+  import Reviews from "./components/reviews.svelte";
 </script>
 
 <main>
   <Navbar />
   <div class="scrollContainerHero"><Hero /></div>
   <div class="scrollContainerWelcome"><Welcome /></div>
-  <div class="scrollContainerOpinions"></div>
+  <div class="scrollContainerReviews"><Reviews /></div>
   <div class="scrollContainerFooter"><Footer /></div>
 </main>
 

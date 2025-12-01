@@ -20,10 +20,6 @@
 </main>
 
 <style>
-    h1 {
-        color: white;
-        font-size: 6em;
-    }
     .mainContainer {
         padding-bottom: 3em;
     }
