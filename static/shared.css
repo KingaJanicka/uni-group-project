@@ -30,3 +30,8 @@ h2{
 body{
   margin: 0em;
 }
+
+.scrollContainer {
+    scroll-snap-align: start;
+    padding-top: 3em;
+}
