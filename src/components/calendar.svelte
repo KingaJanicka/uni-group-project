@@ -1,9 +1,10 @@
 <script lang="ts">
     import type { Snippet } from "svelte";
+    import SubmitButton from "./submitButton.svelte";
 </script>
 
 <main>
-    <div class="mainContainer">
+    <div class="infoInput">
         <div class="fieldContainer">
             <div>Date:</div>
             <input class="calendar" type="date" step="1" />
@@ -27,16 +28,31 @@
                 {/each}
             </select>
         </div>
+        <div class="fieldContainer">
+            <div>Name:</div>
+            <input
+                class="field"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Tell us your name"
+            />
+        </div>
+        <div>
+            <SubmitButton
+                >Your date has been reserved! Check your Email</SubmitButton
+            >
+        </div>
     </div>
 </main>
 
 <style>
-    .mainContainer {
+    .infoInput {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 15em;
+        width: 20em;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 1em;
         padding: 20vh 15vh;
@@ -53,7 +69,8 @@
         font-size: x-large;
     }
     option,
-    select {
+    select,
+    input {
         font-size: large;
     }
 </style>

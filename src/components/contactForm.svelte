@@ -1,6 +1,5 @@
 <script lang="ts">
-    let popupOn: boolean = $state(false);
-    import { clickOutside } from "./clickOutside";
+    import SubmitButton from "./submitButton.svelte";
 </script>
 
 <main>
@@ -35,21 +34,7 @@
                 placeholder="Let us know"
             ></textarea>
         </div>
-        <input
-            class="button"
-            type="submit"
-            value="Submit"
-            onclick={(event) => (event.stopPropagation(), (popupOn = true))}
-        />
-        {#if popupOn === true}
-            <div
-                class="popup"
-                use:clickOutside
-                onoutsideclick={() => (popupOn = false)}
-            >
-                We will get back to you shortly!
-            </div>
-        {/if}
+        <SubmitButton>We will get back to you shortly!</SubmitButton>
     </div>
 </main>
 
@@ -89,29 +74,5 @@
     ::placeholder {
         font-size: 1.1em;
         font-size: 0.9em;
-    }
-    .button {
-        margin-top: 2em;
-        width: 10em;
-        height: 3em;
-        font-size: large;
-        background-color: white;
-        border-radius: 2em;
-        border: 1px solid grey;
-        color: black;
-    }
-    .button:hover {
-        cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.2);
-    }
-    .popup {
-        position: absolute;
-        top: 50%;
-        padding: 2em;
-        border: 1px solid gainsboro;
-        border-radius: 1em;
-        text-align: center;
-        background: rgb(239, 239, 239);
-        font-size: larger;
     }
 </style>
