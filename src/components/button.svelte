@@ -9,18 +9,21 @@
 </script>
 
 <main>
-    <div
-        class="buttonContainer"
-        style={border ? "border: 2px black solid" : "border: none"}
+    <a href={link}>
+        <div
+            class="buttonContainer"
+            style={border ? "border: 2px black solid" : "border: none"}
+        >
+            <div>{@render children?.()}</div>
+        </div></a
     >
-        <div><a href={link}>{@render children?.()}</a></div>
-    </div>
 </main>
 
 <style>
     .buttonContainer {
         border-radius: 2em;
         padding: 0.5em 2em;
+
         width: fit-content;
     }
     .buttonContainer:hover {

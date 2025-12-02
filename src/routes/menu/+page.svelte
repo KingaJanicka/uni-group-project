@@ -1,7 +1,8 @@
 <script lang="ts">
+    import Menu from "../../components/menu.svelte";
 </script>
 
-<div class="scrollContainer">menu</div>
+<div class="scrollContainer"><Menu /></div>
 
 <style>
 </style>
