@@ -27,15 +27,18 @@ export {};
 
 declare module "$app/types" {
 	export interface AppTypes {
-		RouteId(): "/" | "/our-story";
+		RouteId(): "/" | "/contact" | "/menu" | "/our-story" | "/reservations";
 		RouteParams(): {
 			
 		};
 		LayoutParams(): {
 			"/": Record<string, never>;
-			"/our-story": Record<string, never>
+			"/contact": Record<string, never>;
+			"/menu": Record<string, never>;
+			"/our-story": Record<string, never>;
+			"/reservations": Record<string, never>
 		};
-		Pathname(): "/" | "/our-story" | "/our-story/";
+		Pathname(): "/" | "/contact" | "/contact/" | "/menu" | "/menu/" | "/our-story" | "/our-story/" | "/reservations" | "/reservations/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/shared.css" | "/vite.svg" | string & {};
 	}

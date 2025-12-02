@@ -4,7 +4,7 @@
 </script>
 
 <main>
-    <div class="heroContainer"><h1>Cool, catchy title.</h1></div>
+    <div class="heroContainer"><h1>Cool, catchy title</h1></div>
 </main>
 
 <style>
