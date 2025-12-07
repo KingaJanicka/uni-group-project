@@ -52,7 +52,11 @@
 </main>
 
 <style>
+    h2{
+        font-family: Bethany Elingston;
+    }
     .mainContainer {
+        font-family:Fustat;
         padding: 1em;
         display: flex;
         flex-direction: column;

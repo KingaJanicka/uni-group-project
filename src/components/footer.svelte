@@ -47,4 +47,10 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    h2{
+         font-family:Bethany Elingston;
+    }
+    p{
+            font-family:Fustat;
+    }
 </style>

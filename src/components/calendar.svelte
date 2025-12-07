@@ -47,6 +47,9 @@
 </main>
 
 <style>
+    ::placeholder {
+        font-family: Fustat;
+    }
     .infoInput {
         display: flex;
         flex-direction: column;
@@ -56,6 +59,7 @@
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 1em;
         padding: 20vh 15vh;
+        font-family: Fustat;
     }
     .fieldContainer {
         display: flex;

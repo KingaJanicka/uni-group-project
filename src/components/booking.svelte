@@ -11,7 +11,11 @@
 </main>
 
 <style>
+    main{
+        padding-top:2em;
+    }
     .mainContainer {
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -26,5 +30,6 @@
     }
     h2 {
         color: white;
+        font-family: Bethany Elingston;
     }
 </style>

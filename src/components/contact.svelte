@@ -15,6 +15,7 @@
 
 <style>
     .mainContainer {
+        font-family: Bethany Elingston;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

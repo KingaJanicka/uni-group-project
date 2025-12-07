@@ -1,3 +1,4 @@
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -34,4 +35,12 @@ body{
 .scrollContainer {
     scroll-snap-align: start;
     padding-top: 3em;
+}
+@font-face {
+  font-family: Bethany Elingston;
+  src: url(src/assets/fonts/Bethany_Elingston.otf) format("truetype");
+}
+@font-face {
+  font-family: Fustat;
+  src: url(src/assets/fonts/Fustat.ttf) format("truetype");
 }

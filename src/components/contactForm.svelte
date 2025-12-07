@@ -39,6 +39,9 @@
 </main>
 
 <style>
+   ::placeholder{
+        font-family: Fustat;
+   }
     .mainContainer {
         width: 35vw;
         height: 55vh;

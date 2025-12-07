@@ -60,12 +60,16 @@
 
 <style>
     .mainContainer {
+         padding-top: 3em;
+        font-family: Bethany Elingston;
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     button {
+        font-family: Fustat;
         font-size: x-large;
         color: black;
         background-color: rgba(0, 0, 0, 0.05);

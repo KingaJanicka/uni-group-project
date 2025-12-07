@@ -20,17 +20,17 @@
 </main>
 
 <style>
-    .mainContainer {
-        padding-bottom: 3em;
-    }
+  
     .welcomeContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family:'Bethany Elingston';
     }
     .welcomeText {
         width: 85%;
         padding: 1em 0em 3em 0em;
+        font-family:'Fustat';
     }
 </style>

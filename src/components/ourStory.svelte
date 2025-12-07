@@ -26,11 +26,18 @@
 
 <style>
     .mainContainer {
+        padding-top:3em;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
+    }
+    h2{
+        font-family: Bethany Elingston;
+    }
+    p{
+        font-family:Fustat;
     }
     .storyContainer {
         display: grid;

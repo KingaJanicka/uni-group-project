@@ -29,6 +29,7 @@
 
 <style>
     .button {
+        font-family: fustat;
         margin-top: 2em;
         width: 10em;
         height: 3em;

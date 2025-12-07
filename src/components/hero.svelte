@@ -8,9 +8,13 @@
 </main>
 
 <style>
+main{
+    padding-top:2em;
+}
     h1 {
         color: white;
         font-size: 6em;
+        font-family:'Bethany Elingston';
     }
     .heroContainer {
         display: flex;

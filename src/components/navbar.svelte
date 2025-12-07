@@ -34,6 +34,12 @@
         justify-content: end;
         padding: 0em 1.5em;
     }
+    .buttonContainer :global(button){
+         color:black;
+    }
+    .buttonContainer :global(a) {
+        color:black;
+    }
     .mainContainer {
         position: fixed;
         z-index: 100;
@@ -42,8 +48,9 @@
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         width: 100vw;
-        background: #ffffff;
         padding: 1em 0em;
         margin: 0em;
+        color:black;
+        font-family: 'Fustat';
     }
 </style>
