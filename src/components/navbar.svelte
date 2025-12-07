@@ -34,11 +34,11 @@
         justify-content: end;
         padding: 0em 1.5em;
     }
-    .buttonContainer :global(button){
-         color:black;
+    .buttonContainer :global(button) {
+        color: black;
     }
     .buttonContainer :global(a) {
-        color:black;
+        color: black;
     }
     .mainContainer {
         position: fixed;
@@ -50,7 +50,14 @@
         width: 100vw;
         padding: 1em 0em;
         margin: 0em;
-        color:black;
-        font-family: 'Fustat';
+        background: rgba(255, 255, 255);
+        color: black;
+        font-family: "Fustat";
+        opacity: 20%;
+        transition: 0.5s opacity ease-in-out;
+    }
+    .mainContainer:hover,
+    .mainContainer:focus-within {
+        opacity: 1;
     }
 </style>
