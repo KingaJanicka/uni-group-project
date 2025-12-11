@@ -38,9 +38,9 @@ body{
 }
 @font-face {
   font-family: Bethany Elingston;
-  src: url(%sveltekit.assets%/fonts/Bethany_Elingston.otf) format("truetype");
+  src: url(/fonts/Bethany_Elingston.otf) format("truetype");
 }
 @font-face {
   font-family: Fustat;
-  src: url(%sveltekit.assets%/fonts/Fustat.ttf) format("truetype");
+  src: url(/fonts/Fustat.ttf) format("truetype");
 }
