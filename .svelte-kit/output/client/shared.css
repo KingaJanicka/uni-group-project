@@ -1,0 +1,46 @@
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size:larger;
+  color-scheme: light dark;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h2{
+  font-size: 2.5em;
+}
+
+body{
+  margin: 0em;
+}
+
+.scrollContainer {
+    scroll-snap-align: start;
+    padding-top: 3em;
+}
+@font-face {
+  font-family: Bethany Elingston;
+  src: url(src/assets/fonts/Bethany_Elingston.otf) format("truetype");
+}
+@font-face {
+  font-family: Fustat;
+  src: url(src/assets/fonts/Fustat.ttf) format("truetype");
+}

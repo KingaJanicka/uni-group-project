@@ -1,0 +1,312 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_environment.js",
+      "_server.js"
+    ]
+  },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes",
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "_button.C3NsbVIv.css": {
+    "file": "_app/immutable/assets/button.C3NsbVIv.css",
+    "src": "_button.C3NsbVIv.css"
+  },
+  "_button.js": {
+    "file": "chunks/button.js",
+    "name": "button",
+    "imports": [
+      "_index.js",
+      "_server.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/button.C3NsbVIv.css"
+    ]
+  },
+  "_context.js": {
+    "file": "chunks/context.js",
+    "name": "context"
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js",
+    "name": "environment"
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_attributes.js",
+      "_escaping.js",
+      "_context.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index.js",
+      "_environment.js",
+      "_equality.js",
+      "_context.js",
+      "_server.js"
+    ]
+  },
+  "_server.js": {
+    "file": "chunks/server.js",
+    "name": "server"
+  },
+  "_shared.js": {
+    "file": "chunks/shared.js",
+    "name": "shared",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_submitButton.TZJADNZu.css": {
+    "file": "_app/immutable/assets/submitButton.TZJADNZu.css",
+    "src": "_submitButton.TZJADNZu.css"
+  },
+  "_submitButton.js": {
+    "file": "chunks/submitButton.js",
+    "name": "submitButton",
+    "css": [
+      "_app/immutable/assets/submitButton.TZJADNZu.css"
+    ]
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_shared.js",
+      "_environment.js",
+      "_server.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_escaping.js",
+      "_equality.js",
+      "_exports.js",
+      "_utils.js",
+      "_context.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js",
+      "_server.js",
+      "_shared.js",
+      "_exports.js",
+      "_utils.js",
+      "_internal.js"
+    ]
+  },
+  "src/assets/contact1.png": {
+    "file": "_app/immutable/assets/contact1.pWGSjSz7.png",
+    "src": "src/assets/contact1.png"
+  },
+  "src/assets/contact2.png": {
+    "file": "_app/immutable/assets/contact2.Bbuz33eO.png",
+    "src": "src/assets/contact2.png"
+  },
+  "src/assets/galery1.png": {
+    "file": "_app/immutable/assets/galery1.DiPmu-14.png",
+    "src": "src/assets/galery1.png"
+  },
+  "src/assets/galery2.png": {
+    "file": "_app/immutable/assets/galery2.pa68SBPw.png",
+    "src": "src/assets/galery2.png"
+  },
+  "src/assets/galery3.png": {
+    "file": "_app/immutable/assets/galery3.CYFkfqj6.png",
+    "src": "src/assets/galery3.png"
+  },
+  "src/assets/galery4.png": {
+    "file": "_app/immutable/assets/galery4.VIPpvcAb.png",
+    "src": "src/assets/galery4.png"
+  },
+  "src/assets/galery5.png": {
+    "file": "_app/immutable/assets/galery5.C-D10ujC.png",
+    "src": "src/assets/galery5.png"
+  },
+  "src/assets/galery6.png": {
+    "file": "_app/immutable/assets/galery6.DcjUdQTM.png",
+    "src": "src/assets/galery6.png"
+  },
+  "src/assets/galery7.png": {
+    "file": "_app/immutable/assets/galery7.dTrVlZ1-.png",
+    "src": "src/assets/galery7.png"
+  },
+  "src/assets/galery8.png": {
+    "file": "_app/immutable/assets/galery8.B9sTsmUw.png",
+    "src": "src/assets/galery8.png"
+  },
+  "src/assets/hero.jpg": {
+    "file": "_app/immutable/assets/hero.fwDxNnaY.jpg",
+    "src": "src/assets/hero.jpg"
+  },
+  "src/assets/menu.png": {
+    "file": "_app/immutable/assets/menu.PSdldfF7.png",
+    "src": "src/assets/menu.png"
+  },
+  "src/assets/ourStory1.png": {
+    "file": "_app/immutable/assets/ourStory1.BoGEMUPS.png",
+    "src": "src/assets/ourStory1.png"
+  },
+  "src/assets/ourStory2.png": {
+    "file": "_app/immutable/assets/ourStory2.6ngE521J.png",
+    "src": "src/assets/ourStory2.png"
+  },
+  "src/assets/reservations.png": {
+    "file": "_app/immutable/assets/reservations.DmE6a4xW.png",
+    "src": "src/assets/reservations.png"
+  },
+  "src/assets/review1.png": {
+    "file": "_app/immutable/assets/review1.MwcNB__R.png",
+    "src": "src/assets/review1.png"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_button.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.C77F3chs.css"
+    ]
+  },
+  "src/routes/+layout.ts": {
+    "file": "entries/pages/_layout.ts.js",
+    "name": "entries/pages/_layout.ts",
+    "src": "src/routes/+layout.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CWuZ0uNw.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/galery1.DiPmu-14.png",
+      "_app/immutable/assets/galery2.pa68SBPw.png",
+      "_app/immutable/assets/galery3.CYFkfqj6.png",
+      "_app/immutable/assets/galery4.VIPpvcAb.png",
+      "_app/immutable/assets/galery5.C-D10ujC.png",
+      "_app/immutable/assets/galery6.DcjUdQTM.png",
+      "_app/immutable/assets/galery7.dTrVlZ1-.png",
+      "_app/immutable/assets/galery8.B9sTsmUw.png",
+      "_app/immutable/assets/review1.MwcNB__R.png",
+      "_app/immutable/assets/hero.fwDxNnaY.jpg"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "name": "entries/pages/contact/_page.svelte",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_submitButton.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CC21Bc3J.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/contact1.pWGSjSz7.png",
+      "_app/immutable/assets/contact2.Bbuz33eO.png"
+    ]
+  },
+  "src/routes/menu/+page.svelte": {
+    "file": "entries/pages/menu/_page.svelte.js",
+    "name": "entries/pages/menu/_page.svelte",
+    "src": "src/routes/menu/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_escaping.js",
+      "_button.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.wA7ryk41.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/menu.PSdldfF7.png"
+    ]
+  },
+  "src/routes/our-story/+page.svelte": {
+    "file": "entries/pages/our-story/_page.svelte.js",
+    "name": "entries/pages/our-story/_page.svelte",
+    "src": "src/routes/our-story/+page.svelte",
+    "isEntry": true,
+    "css": [
+      "_app/immutable/assets/_page.BGtkbTY3.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/ourStory2.6ngE521J.png",
+      "_app/immutable/assets/ourStory1.BoGEMUPS.png"
+    ]
+  },
+  "src/routes/reservations/+page.svelte": {
+    "file": "entries/pages/reservations/_page.svelte.js",
+    "name": "entries/pages/reservations/_page.svelte",
+    "src": "src/routes/reservations/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_submitButton.js",
+      "_escaping.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D9mbcWdt.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/reservations.DmE6a4xW.png"
+    ]
+  }
+}
