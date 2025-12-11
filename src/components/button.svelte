@@ -1,5 +1,7 @@
 <script lang="ts">
     import type { Snippet } from "svelte";
+    import { base } from "$app/paths";
+
     interface Props {
         children: Snippet;
         border: boolean;
@@ -9,7 +11,7 @@
 </script>
 
 <main>
-    <a href={link}>
+    <a href="{base}/{link}">
         <div
             class="buttonContainer"
             style={border ? "border: 2px black solid" : "border: none"}
