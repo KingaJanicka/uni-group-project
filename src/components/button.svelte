@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Snippet } from "svelte";
-    import { resolve } from "$app/paths";
+    import { base } from "$app/paths";
 
     interface Props {
         children: Snippet;
