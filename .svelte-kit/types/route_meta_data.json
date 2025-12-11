@@ -1,7 +1,18 @@
 {
-	"/": [],
-	"/contact": [],
-	"/menu": [],
-	"/our-story": [],
-	"/reservations": []
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/contact": [
+		"src/routes/+layout.ts"
+	],
+	"/menu": [
+		"src/routes/+layout.ts"
+	],
+	"/our-story": [
+		"src/routes/+layout.ts"
+	],
+	"/reservations": [
+		"src/routes/+layout.ts"
+	]
 }

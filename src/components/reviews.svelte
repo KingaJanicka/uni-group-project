@@ -14,7 +14,7 @@
                     <ReviewCard>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Vestibulum in metus id odio cursus gravida a a nibh.
-                        Pellentesque tempus tempor enim, ac finibus nulla cursus
+                        Pellentesque tempus tempor enim, ac inibus nulla cursus
                         non. Vestibulum facilisis at enim in feugiat. Orci
                         varius natoque penatibus et magnis dis parturient
                         montes, nascetur ridiculus mus.
@@ -52,11 +52,11 @@
 </main>
 
 <style>
-    h2{
+    h2 {
         font-family: Bethany Elingston;
     }
     .mainContainer {
-        font-family:Fustat;
+        font-family: Fustat;
         padding: 1em;
         display: flex;
         flex-direction: column;
