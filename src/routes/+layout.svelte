@@ -1,4 +1,5 @@
 <script lang="ts">
+  import "../shared.css";
   import Navbar from "../components/navbar.svelte";
   import hero from "../assets/hero.jpg";
   // import Hero from "../components/hero.svelte";
